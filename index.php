@@ -10,15 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 </head>
-<body class="home-page">
+<body>
 <nav>
-    <img class="logo-icon" src="icons/logo-cb.png" alt="charlotte buckley logo"/>
+    <img class="logo-icon" src="icons/logo-1.png" alt="charlotte buckley logo"/>
     <button>
         <img id="burger-menu-icon" src="icons/burger.svg" alt="nav menu"/>
     </button>
     <ul class="burger-menu hidden">
         <li><a href="about.html">about</a></li>
-        <li><a href="work.html">work</a></li>
+        <li><a href="projects.html">work</a></li>
     </ul>
     <div class="nav-icons">
         <a href="https://www.linkedin.com/in/charlotte-buckley-93866416a/">

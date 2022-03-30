@@ -3,7 +3,7 @@ body {
     font-size: 10px;
     background-image: url(background-1.jpg);
     background-repeat: no-repeat;
-    background-size: 200%;
+    background-size: 300%;
     color: white;
 }
 
@@ -20,7 +20,7 @@ nav {
 
 .logo-icon {
     width: 90px;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
 .nav-icons {
@@ -29,8 +29,8 @@ nav {
 
 #burger-menu-icon {
     width: 40px;
-    padding-right: 20px;
-    padding-top: 5px;
+    margin-right: 20px;
+    margin-top: 5px;
     filter: brightness(0) saturate(100%) invert(42%) sepia(8%) saturate(1942%) hue-rotate(266deg) brightness(89%) contrast(82%);
 }
 
@@ -72,7 +72,7 @@ header {
 }
 
 .header-container {
-    width: 280px;
+    width: 250px;
 }
 
 .header-container p {
@@ -82,7 +82,7 @@ header {
 
 h1 {
     margin: 5px;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 h2 {
