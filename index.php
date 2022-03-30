@@ -12,13 +12,13 @@
 </head>
 <body class="home-page">
 <nav>
-<!--    <div>-->
-<!--        <img id="burger-menu-icon" src="icons/burger.svg" alt="nav menu"/>-->
-<!--    </div>-->
-<!--    <ul class="burger-menu">-->
-<!--        <li class="burger-menu-items"><a href="about.html">about</a></li>-->
-<!--        <li class="burger-menu-items"><a href="work.html">work</a></li>-->
-<!--    </ul>-->
+    <button>
+        <img id="burger-menu-icon" src="icons/burger.svg" alt="nav menu"/>
+    </button>
+    <ul class="burger-menu hidden">
+        <li><a href="about.html">about</a></li>
+        <li><a href="work.html">work</a></li>
+    </ul>
     <div class="nav-icons">
         <a href="https://www.linkedin.com/in/charlotte-buckley-93866416a/">
             <img src="icons/linkedin.svg" alt="LinkedIn Icon"/>

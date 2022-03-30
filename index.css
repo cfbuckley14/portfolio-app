@@ -1,5 +1,38 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
-    background-image: url(background-1.jpg)
+    background-image: url(background-1.jpg);
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    background-color: white;
+    width: 100vw;
+    height: 55px;
+    opacity: 0.9;
+}
+
+.nav-icons {
+    display: none;
+}
+
+#burger-menu-icon {
+    width: 30px;
+    padding: 0 10px 0 10px;
+    filter: brightness(0) saturate(100%) invert(42%) sepia(8%) saturate(1942%) hue-rotate(266deg) brightness(89%) contrast(82%);
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    height: 100%;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
 }
