@@ -1,7 +1,12 @@
-let openBurgerMenuButton = document.querySelector('button')
-let burgerMenuItems = document.querySelector('.burger-menu')
+function openCloseBurgerMenu(button, menuItems) {
+    document.querySelector(button).addEventListener('click', () => {
+        document.querySelector(menuItems).classList.remove('hidden')
+        console.log('removed hidden')
+    })
+    document.querySelector(menuItems).addEventListener('click', () => {
+        document.querySelector(menuItems).classList.add('hidden')
+    })
 
-openBurgerMenuButton.addEventListener('click', () => {
-    burgerMenuItems.classList.remove('.hidden')
-    console.log('removed hidden')
-})
+}
+
+openCloseBurgerMenu('button', 'burger-menu')

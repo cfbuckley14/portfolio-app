@@ -10,8 +10,8 @@ nav {
     align-items: center;
     font-size: 1rem;
     background-color: white;
-    width: 100vw;
-    height: 55px;
+    width: 100%;
+    height: 70px;
     opacity: 0.9;
 }
 
@@ -20,7 +20,7 @@ nav {
 }
 
 #burger-menu-icon {
-    width: 30px;
+    width: 45px;
     padding: 0 10px 0 10px;
     filter: brightness(0) saturate(100%) invert(42%) sepia(8%) saturate(1942%) hue-rotate(266deg) brightness(89%) contrast(82%);
 }
@@ -35,4 +35,48 @@ button {
 
 .hidden {
     display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-icons {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(244deg) brightness(112%) contrast(101%);
+    display: flex;
+    gap: 10px;
+    margin: 5px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 30px;
+}
+
+.header-container p {
+    margin: 5px;
+    font-size: 1.25rem;
+}
+
+h1 {
+    margin: 5px;
+    font-size: 3rem;
+}
+
+h2 {
+    margin: 5px;
+    font-size: 1.75rem;
+}
+
+@media screen and (min-width: 500px) {
+
 }
