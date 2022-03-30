@@ -12,6 +12,7 @@
 </head>
 <body class="home-page">
 <nav>
+    <img class="logo-icon" src="icons/logo-cb.png" alt="charlotte buckley logo"/>
     <button>
         <img id="burger-menu-icon" src="icons/burger.svg" alt="nav menu"/>
     </button>
@@ -37,7 +38,7 @@
             <p>Hi there, I'm</p>
             <h1>Charlotte.</h1>
             <div>
-                <h2 class="normal-text">A full-stack developer.</h2>
+                <h2 class="normal-text">A <span>full stack</span> developer.</h2>
                 <p>Find out more about me and my journey.</p>
             </div>
             <div class="social-icons">

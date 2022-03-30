@@ -2,12 +2,15 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     background-image: url(background-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 200%;
     color: white;
 }
 
 nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     font-size: 1rem;
     background-color: white;
     width: 100%;
@@ -15,13 +18,19 @@ nav {
     opacity: 0.9;
 }
 
+.logo-icon {
+    width: 90px;
+    padding-left: 10px;
+}
+
 .nav-icons {
     display: none;
 }
 
 #burger-menu-icon {
-    width: 45px;
-    padding: 0 10px 0 10px;
+    width: 40px;
+    padding-right: 20px;
+    padding-top: 5px;
     filter: brightness(0) saturate(100%) invert(42%) sepia(8%) saturate(1942%) hue-rotate(266deg) brightness(89%) contrast(82%);
 }
 
@@ -39,12 +48,11 @@ button {
 
 header {
     display: flex;
-    flex-direction: column;
-    position: absolute;
+    justify-content: center;
+    align-items: center;
     width: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;
 }
 
 .social-icons {
@@ -52,6 +60,7 @@ header {
     display: flex;
     gap: 10px;
     margin: 5px;
+    justify-content: center;
 }
 
 .social-icons a {
@@ -62,6 +71,10 @@ header {
     width: 30px;
 }
 
+.header-container {
+    width: 280px;
+}
+
 .header-container p {
     margin: 5px;
     font-size: 1.25rem;
@@ -69,12 +82,16 @@ header {
 
 h1 {
     margin: 5px;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 h2 {
     margin: 5px;
-    font-size: 1.75rem;
+    font-size: 1.6rem;
+}
+
+span {
+
 }
 
 @media screen and (min-width: 500px) {
