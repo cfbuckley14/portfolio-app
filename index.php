@@ -52,6 +52,7 @@
                     <img src="icons/mail.svg" alt="Email Icon"/>
                 </a>
             </div>
+            <img class="bitmoji" src="icons/sticker.png" alt="bitmoji of Charlotte"/>
         </div>
     </header>
 </main>

@@ -50,7 +50,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
+    width: 100%;
     text-align: center;
     margin-top: 100px;
 }
@@ -72,26 +72,32 @@ header {
 }
 
 .header-container {
-    width: 250px;
+    width: 100%;
 }
 
 .header-container p {
     margin: 5px;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 h1 {
     margin: 5px;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 h2 {
     margin: 5px;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
 }
 
 span {
+    text-decoration: underline;
+}
 
+.bitmoji {
+    width: 90%;
+    position: absolute;
+    right: 0;
 }
 
 @media screen and (min-width: 500px) {

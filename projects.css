@@ -70,12 +70,11 @@ h2 {
 
 .project {
     width: 200px;
-    height: 200px;
-    border-style: double;
-    border-color: white;
+    height: 225px;
     padding: 10px;
     margin: 10px;
-    background-color: #1985ac99;
+    background-color: #ffffff;
+    color: #19506B;
 }
 
 .project p {
@@ -83,7 +82,7 @@ h2 {
 }
 
 a {
-    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(244deg) brightness(112%) contrast(101%);
+    filter: brightness(0) saturate(100%) invert(23%) sepia(63%) saturate(564%) hue-rotate(155deg) brightness(98%) contrast(92%);
     text-decoration: none;
 }
 
