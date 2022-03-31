@@ -69,8 +69,8 @@ h2 {
 }
 
 .project {
-    width: 200px;
-    height: 225px;
+    width: 225px;
+    height: 250px;
     padding: 10px;
     margin: 10px;
     background-color: #ffffff;
@@ -78,7 +78,7 @@ h2 {
 }
 
 .project p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 a {
