@@ -27,6 +27,10 @@ nav {
     display: none;
 }
 
+.nav-links {
+    display: none;
+}
+
 #burger-menu-icon {
     width: 40px;
     margin-right: 20px;
@@ -100,6 +104,49 @@ span {
     right: 0;
 }
 
-@media screen and (min-width: 500px) {
-
+@media screen and (min-width: 400px) {
+    body {
+        height: 100vh;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    .header-container p {
+        font-size: 2rem;
+    }
+    .bitmoji {
+        position: absolute;
+        bottom: 0;
+        width: 30%;
+    }
+    #burger-menu-icon {
+        display: none;
+    }
+    nav {
+        height: 80px;
+    }
+    .logo-icon {
+        width: 120px;
+    }
+    .nav-links {
+        display: block;
+        font-size: 2rem;
+    }
+    .nav-links a {
+        text-decoration: none;
+        color: #8a5b7b;
+        margin-right: 20px;
+    }
+    .social-icons img {
+        width: 50px;
+    }
+    .nav-links a:hover {
+        text-shadow: 0 0 5px #8a5b7b;
+    }
+    .social-icons img:hover {
+        filter: drop-shadow(0 0 5px white);
+    }
 }

@@ -6,7 +6,6 @@ function openCloseBurgerMenu(button, menuItems) {
     document.querySelector(menuItems).addEventListener('click', () => {
         document.querySelector(menuItems).classList.add('hidden')
     })
-
 }
 
-openCloseBurgerMenu('button', 'burger-menu')
+openCloseBurgerMenu('#burger-menu-button', '#burger-menu')

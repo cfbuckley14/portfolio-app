@@ -81,11 +81,64 @@ h2 {
     font-size: 0.8rem;
 }
 
-a {
+main a {
     filter: brightness(0) saturate(100%) invert(23%) sepia(63%) saturate(564%) hue-rotate(155deg) brightness(98%) contrast(92%);
     text-decoration: none;
 }
 
 .project-icon {
     width: 30px;
+}
+
+@media screen and (min-width: 400px) {
+    body {
+        height: 100vh;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .projects-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .project {
+        width: 300px;
+        height: 350px;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .project p {
+        font-size: 1.1rem;
+    }
+    #burger-menu-icon {
+        display: none;
+    }
+    nav {
+        height: 80px;
+    }
+    .logo-icon {
+        width: 120px;
+    }
+    .nav-links {
+        display: block;
+        font-size: 2rem;
+    }
+    .nav-links a {
+        text-decoration: none;
+        color: #19506B;
+        margin-right: 20px;
+    }
+    .nav-links a:hover {
+        text-shadow: 0 0 5px #19506B;
+    }
+    .project img {
+        width: 40px;
+    }
+    .project img:hover {
+        filter: drop-shadow(0 0 5px #19506B);
+    }
 }

@@ -4,7 +4,7 @@
     <title>Charlotte Buckley - Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="normalize.css">
-    <script src="script.js"></script>
+<!--    <script src="script.js"></script>-->
     <link rel="stylesheet" type ="text/css" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,10 +13,10 @@
 <body>
 <nav>
     <img class="logo-icon" src="icons/logo-1.png" alt="charlotte buckley logo"/>
-    <button>
+    <button id="burger-menu-button">
         <img id="burger-menu-icon" src="icons/burger.svg" alt="nav menu"/>
     </button>
-    <ul class="burger-menu hidden">
+    <ul id="burger-menu" class="hidden">
         <li><a href="about.html">about</a></li>
         <li><a href="projects.html">work</a></li>
     </ul>
@@ -30,6 +30,10 @@
         <a href="mailto:cfbuckley14@gmail.com" >
             <img src="icons/mail.svg" alt="Email Icon"/>
         </a>
+    </div>
+    <div class="nav-links">
+        <a href="about.html">about</a>
+        <a href="projects.html">projects</a>
     </div>
 </nav>
 <main>
@@ -54,6 +58,7 @@
             </div>
             <img class="bitmoji" src="icons/sticker.png" alt="bitmoji of Charlotte"/>
         </div>
+        <script src="script.js"></script>
     </header>
 </main>
 </body>

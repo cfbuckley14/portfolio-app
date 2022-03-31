@@ -81,3 +81,48 @@ main a {
     width: 70%;
     margin: 0 50px 50px 50px;
 }
+
+@media screen and (min-width: 400px) {
+    body {
+        height: 100vh;
+    }
+    h1 {
+        font-size: 4rem;
+        margin-top: 10px;
+    }
+    main p {
+        font-size: 1.5rem;
+        margin: 10px;
+    }
+    main div {
+        width: 90%;
+    }
+    .bitmoji {
+        width: 25%;
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+    }
+    #burger-menu-icon {
+        display: none;
+    }
+    nav {
+        height: 80px;
+    }
+    .logo-icon {
+        width: 120px;
+    }
+    .nav-links {
+        display: block;
+        font-size: 2rem;
+    }
+    .nav-links a {
+        text-decoration: none;
+        color: #2b5254;
+        margin-right: 20px;
+    }
+    .nav-links a:hover {
+        text-shadow: 0 0 5px #2b5254;
+    }
+}
+
