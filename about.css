@@ -1,7 +1,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
-    background-image: url(background-2.png);
+    background-image: url(background-2.jpg);
     background-repeat: no-repeat;
     background-size: 300%;
     color: white;
@@ -95,7 +95,7 @@ h1 {
     text-align: center;
 }
 
-main div {
+.content-container {
     width: 80%;
     color: #ffffff;
     padding: 10px;
@@ -108,13 +108,31 @@ main p {
 }
 
 main a {
-    text-decoration: underline;
     color: #ffffff;
+    font-family: 'Londrina Outline', cursive;
+    text-decoration: none;
 }
 
-.bitmoji {
-    width: 70%;
-    margin: 0 50px 50px 50px;
+.button-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-button {
+    background-color: #ffffff;
+    color: #2b5254;
+    font-size: 1.25rem;
+    padding: 20px 10px 20px 10px;
+    border-radius: 7px;
+    border: #2b5254 3px solid;
+    margin: 10px;
+    width: 125px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 @media screen and (min-width: 400px) {
@@ -122,15 +140,21 @@ main a {
         height: 100vh;
     }
     h1 {
-        font-size: 4rem;
+        font-size: 5rem;
         margin-top: 10px;
     }
+    header {
+        width: 50%;
+    }
+    main {
+        padding: 20px;
+    }
     main p {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         margin: 10px;
     }
     main div {
-        width: 90%;
+        width: 70%;
     }
     .bitmoji {
         width: 25%;
@@ -151,13 +175,23 @@ main a {
         display: block;
         font-size: 2rem;
     }
+    .navigation-button {
+        transition: 0.3s ease-in-out;
+    }
     .nav-links a {
         text-decoration: none;
         color: #2b5254;
         margin-right: 20px;
+        transition: all 0.3s ease-in-out;
     }
     .nav-links a:hover {
         text-shadow: 0 0 5px #2b5254;
+    }
+    .navigation-button:hover {
+        box-shadow: #ffffff99 2px 3px;
+        background-color: #2b5254;
+        color: white;
+        animation: none;
     }
 }
 

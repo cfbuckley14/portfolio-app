@@ -86,15 +86,18 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
 }
 
 h1 {
     font-size: 2rem;
+    margin: 20px;
 }
 
 h2 {
     font-size: 1.2rem;
-    margin: 5px;
+    margin: 20px 5px 10px 5px;
 }
 
 .projects-container {
@@ -106,14 +109,27 @@ h2 {
 .project {
     width: 225px;
     height: 250px;
-    padding: 10px;
-    margin: 10px;
+    padding: 0 20px 0 20px;
     background-color: #ffffff;
     color: #19506B;
+    margin: 10px;
 }
 
 .project p {
     font-size: 0.8rem;
+    margin: 0;
+}
+
+.project div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project div p {
+    font-size: 0.7rem;
+    padding: 10px 0 10px 0;
 }
 
 main a {
@@ -123,6 +139,7 @@ main a {
 
 .project-icon {
     width: 30px;
+    padding: 10px;
 }
 
 @media screen and (min-width: 400px) {
@@ -166,12 +183,14 @@ main a {
         text-decoration: none;
         color: #19506B;
         margin-right: 20px;
+        transition: all 0.3s ease-in-out;
     }
     .nav-links a:hover {
         text-shadow: 0 0 5px #19506B;
     }
     .project img {
         width: 40px;
+        transition: all 0.3s ease-in-out;
     }
     .project img:hover {
         filter: drop-shadow(0 0 5px #19506B);

@@ -7,13 +7,13 @@
     <link rel="stylesheet" type ="text/css" href="about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
 <section id="overlay" class="nav-menu">
     <div id="burger-menu" class="burger-menu hidden">
         <a href="index.html">home</a>
-        <a href="projects.html">work</a>
+        <a href="projects.html">projects</a>
     </div>
 </section>
 <nav>
@@ -23,17 +23,6 @@
     <button id="burger-menu-button">
         <img id="burger-menu-icon" src="icons/burger.svg" alt="nav menu"/>
     </button>
-    <div class="nav-icons">
-        <a href="https://www.linkedin.com/in/charlotte-buckley-93866416a/">
-            <img src="icons/linkedin.svg" alt="LinkedIn Icon"/>
-        </a>
-        <a href="https://github.com/cfbuckley14">
-            <img src="icons/github.svg" alt="GitHub Icon"/>
-        </a>
-        <a href="mailto:cfbuckley14@gmail.com" >
-            <img src="icons/mail.svg" alt="Email Icon"/>
-        </a>
-    </div>
     <div class="nav-links">
         <a href="index.html">home</a>
         <a href="projects.html">projects</a>
@@ -43,12 +32,14 @@
     <header>
         <h1>About me.</h1>
     </header>
-    <div>
+    <div class="content-container">
         <p>My name is Charlotte and I am a full stack developer based in Bristol.</p>
-        <p>I completed my training at <a href="https://io-academy.uk/">iO Academy</a>, on their full stack track course!</p>
+        <p>I completed my training at <a href="https://io-academy.uk/courses/full-stack-track/" target="_blank">iO Academy</a>, on their full stack track course!</p>
         <p>I enjoy making things look pretty, but have a great appreciation for the logically sound functionality that derives from clean and solid code.</p>
     </div>
-    <img class="bitmoji" src="icons/laptop-wave.png" alt="bitmoji with laptop"/>
+    <div class="button-container">
+        <a href="projects.html" class="navigation-button">my portfolio</a>
+    </div>
 </main>
 <script src="script.js"></script>
 </body>

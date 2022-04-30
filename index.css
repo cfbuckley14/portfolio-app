@@ -106,6 +106,26 @@ header {
     width: 30px;
 }
 
+.button-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-button {
+    background-color: #ffffff;
+    color: #8a5b7b;
+    font-size: 1.25rem;
+    padding: 20px 10px 20px 10px;
+    border-radius: 7px;
+    border: #8a5b7b 3px solid;
+    margin: 10px;
+    width: 125px;
+    text-decoration: none;
+}
+
 .header-container {
     width: 100%;
 }
@@ -126,7 +146,7 @@ h2 {
 }
 
 span {
-    text-decoration: underline;
+    font-family: 'Londrina Outline', cursive;
 }
 
 .bitmoji {
@@ -140,7 +160,7 @@ span {
         height: 100vh;
     }
     h1 {
-        font-size: 5rem;
+        font-size: 6rem;
     }
     h2 {
         font-size: 3rem;
@@ -170,14 +190,29 @@ span {
         text-decoration: none;
         color: #8a5b7b;
         margin-right: 20px;
+        transition: all 0.3s ease-in-out;
+        height: 100%;
     }
     .social-icons img {
         width: 50px;
+        transition: all 0.2s ease-in-out;
+    }
+    .button-container {
+        flex-direction: row;
+    }
+    .navigation-button {
+        transition: 0.3s ease-in-out;
     }
     .nav-links a:hover {
         text-shadow: 0 0 5px #8a5b7b;
     }
     .social-icons img:hover {
         filter: drop-shadow(0 0 5px white);
+    }
+    .navigation-button:hover {
+        box-shadow: #ffffff99 2px 3px;
+        background-color: #8a5b7b;
+        color: white;
+        animation: none;
     }
 }
